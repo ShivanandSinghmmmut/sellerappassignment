@@ -66,7 +66,48 @@ const Data = [
     },
     {
         img:car1,
-        title:"bmw",
+        title:"suzuki",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car3,
+        title:"swift",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car1,
+        title:"TaTa",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+
+    {
+        img:car3,
+        title:"audi",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car3,
+        title:"Rover Velar",
         model:"2021",
         people:"4 people",
         type:"hybrid",
@@ -94,7 +135,128 @@ const Data = [
         cost:"$620/month"
 
     },
+    {
+        img:car3,
+        title:"bmw",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car1,
+        title:"suzuki",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car3,
+        title:"swift",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car1,
+        title:"TaTa",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
     
+    
+    {
+        img:car3,
+        title:"audi",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car3,
+        title:"Rover Velar",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car3,
+        title:"bmw",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car1,
+        title:"bmw",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car3,
+        title:"bmw",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car1,
+        title:"suzuki",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car3,
+        title:"swift",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
+    {
+        img:car1,
+        title:"TaTa",
+        model:"2021",
+        people:"4 people",
+        type:"hybrid",
+        mode:"automatic",
+        cost:"$620/month"
+
+    },
     
     
     

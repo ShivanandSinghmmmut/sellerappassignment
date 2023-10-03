@@ -5,6 +5,22 @@ import Card from './Card';
 
 const Nav = () => {
     const [query, setQuery]= useState("");
+    const [currentPage, setCurrentPage] = useState(1);
+    const numOfTotalPages = Math.ceil(Data.length/6);
+    const pages = [...Array(numOfTotalPages+1).keys()].slice(1);
+
+    const indexOfLastTodo = currentPage + 6;
+    const indexOfFirstTodo = indexOfLastTodo - 6;
+
+    const visibleData = Data.slice(indexOfFirstTodo,indexOfLastTodo);
+
+    const prevPageHandler = ()=>{
+      if(currentPage!==1) setCurrentPage(currentPage-1)
+    }
+
+    const nextPageHandler = ()=>{
+      if(currentPage!==numOfTotalPages) setCurrentPage(currentPage+1)
+    }
   return (
     <>
       
@@ -36,7 +52,7 @@ const Nav = () => {
 <div className='container border rounded-4' style={{backgroundColor:'#92b4c9'}}>
   <div className='row'>
         
-        {Data.filter((car)=>{return(car.title.toLowerCase().includes(query))}).map((val)=>{
+        {visibleData.filter((car)=>{return(car.title.toLowerCase().includes(query))}).map((val)=>{
             return(
                 <div className='col-4 p-4'>
                 <Card
@@ -54,7 +70,23 @@ const Nav = () => {
         })}
         
       </div>
+
+      <div className='d-flex'>
+      <span className='px-4' onClick={prevPageHandler}>Prev</span>
+      <p>
+        {
+          pages.map((page)=>{
+            return(
+            <span className='px-4 mx-2 border rounded bg-light' onClick={()=>setCurrentPage(page)}>{page}</span>
+            )
+          })
+        }
+      </p>
+      <span className='px-4' onClick={nextPageHandler}>Next</span>
+      </div>
 </div>
+
+
     </>
   )
 }
